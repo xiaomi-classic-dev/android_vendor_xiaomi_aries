@@ -18,4 +18,6 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),aries)
 
+include $(LOCAL_PATH)/prebuilt/webview/Android.mk
+
 endif
